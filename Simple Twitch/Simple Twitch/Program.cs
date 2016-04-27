@@ -112,7 +112,7 @@ namespace Simple_Twitch
             try
             {
                 ArgsQ = new Spell.Active(SpellSlot.Q);
-                ArgsW = new Spell.Skillshot(SpellSlot.W, 925, SkillShotType.Circular, 250, 1400, 275)
+                ArgsW = new Spell.Skillshot(SpellSlot.W, 925, SkillShotType.Circular, 250, 1410, 285)
                 {
                     AllowedCollisionCount = int.MaxValue
                 };
